@@ -1,0 +1,20 @@
+.errorBox {
+  margin-top: 15px;
+  padding: 12px 18px;
+  background: #ffe6e6;
+  border: 1px solid #ff4d4d;
+  border-left: 5px solid #e60000;
+  border-radius: 8px;
+  color: #b30000;
+  font-size: 0.95rem;
+  font-weight: 500;
+  max-width: 500px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -30,8 +30,8 @@ Follow these steps to run the project locally:
           npm run dev
 
 4. **Open your browser and go to:**
-        ```bash
-          http://localhost:5173
+   ```bash
+   http://localhost:5173
 
           
 ## 📖 Usage
